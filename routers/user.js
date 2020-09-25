@@ -3,6 +3,11 @@ const User = require("../models/User");
 const auth = require("../middleware/auth");
 const router = new express.Router();
 
+// Welcome Route
+router.get("/", async (req, res) => {
+  res.send("Hello");
+});
+
 // Create endpoint
 router.post("/users", async (req, res) => {
   !req.body.name ? (req.body.name = "Player 1") : null;
