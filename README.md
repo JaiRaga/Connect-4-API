@@ -1,2 +1,2 @@
-# Task-Manager-App
-A Fullstack Task Managing App.
+# HackerEarth Challenge
+#### Build a pseudo Backend API which plays Connect 4 with 2 users. You have a matrix of  7 columns with 6 rows. 2 coins of red and yellow colour can be dropped in any column. The coin is dropped from above and it gets stacked in the bottommost available row. You have to build an API which validates and checks if a Valid move is made & must show who wins whenever red or yellow connects 4 coins in a row or column or diagonally of the same colour. Yellow always goes 1st or every valid odd move. Red always goes second or every valid even move.
